@@ -1,6 +1,6 @@
 import { describe, it, expect } from "bun:test";
 import { z } from "zod";
-import { instructor } from "../src";
+import { instructor } from "@/index";
 
 const model = process.env.OPENAI_MODEL
 const apiKey = process.env.OPENAI_API_KEY

@@ -1,6 +1,6 @@
 # Instruct
 
-Node library providing structured output from LLMs.
+Structured output for LLMs.
 
 ## Quick Start
 

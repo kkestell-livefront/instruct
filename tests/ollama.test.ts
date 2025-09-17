@@ -1,6 +1,6 @@
 import { describe, it, expect } from "bun:test";
 import { z } from "zod";
-import { instructor } from "../src";
+import { instructor } from "@/index";
 
 const model = process.env.OLLAMA_MODEL || "qwen3:4b";
 
