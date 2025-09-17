@@ -1,14 +1,14 @@
-import type { Message } from "../types";
+import type { Message } from '../types'
 
 export interface ProviderInit {
-  model: string;
-  apiKey?: string;
-  system?: string;
+    model: string
+    apiKey?: string
+    system?: string
 }
 
 export interface Provider {
-  name(): string;
-  generate(messages: Message[]): Promise<string>;
+    name(): string
+    generate(messages: Message[]): Promise<string>
 }
 
-export type ProviderFactory = (init: ProviderInit) => Provider;
+export type ProviderFactory = (init: ProviderInit) => Provider
