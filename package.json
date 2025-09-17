@@ -1,0 +1,25 @@
+{
+  "name": "instruct",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "bun test --preload=tests/setup.ts"
+  },
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "^24.5.0",
+    "dotenv": "^17.2.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "ollama": "^0.5.18",
+    "openai": "^5.20.3",
+    "zod": "^4.1.8"
+  }
+}
